@@ -14,5 +14,5 @@ int main()
 		HRA =(30*Basic)/100;
 	}
 	TOTALsalary = Basic + DA + TA + HRA;
-	printf("TOTAL SALARY :%D/n", TOTALsalary);
+	printf("TOTAL SALARY :%d/n", TOTALsalary);
 }
