@@ -12,10 +12,10 @@ int main()
 	}
 		if(count == 0 && n>1)
 		{
-			printf("prime");
+			printf("amstrong number");
 		}
 		else
 		{
-			printf("odd");
+			printf("not amstrong number");
 		}
 }
