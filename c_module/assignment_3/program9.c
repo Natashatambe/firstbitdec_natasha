@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 void main() {
-    int n = 121;          // hardcoded input
-    int original = n;     // store original number
-    int reversed = 0;     // to store reversed number
+    int n = 121;          
+    int original = n;     
+    int reversed = 0;     
     int remainder;
 
     while (n > 0) {
-        remainder = n % 10;            // get last digit
-        reversed = reversed * 10 + remainder;  // build reversed number
-        n = n / 10;                    // remove last digit
+        remainder = n % 10;            
+        reversed = reversed * 10 + remainder;  
+        n = n / 10;                   
     }
 
     if (reversed == original)
