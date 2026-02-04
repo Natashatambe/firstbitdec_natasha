@@ -17,4 +17,5 @@ void main()
         printf("\n");
     }
 }
-
+// This program prints a hollow square pattern of asterisks
+// with the size defined by the variable 'n'.
