@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main() {
+    int n = 5;  // You can change the size of the triangle
+    int i, j;
+
+    for (i = n; i >= 1; i--) {      // Outer loop for rows
+        for (j = 1; j <= i; j++) {  // Inner loop for columns
+            printf("*");
+        }
+        printf("\n");                // Move to next row
+    }
+}
