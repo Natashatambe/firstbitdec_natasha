@@ -23,3 +23,5 @@ void main()
 	}
 	
 }
+// This program determines the type of triangle (equilateral, isosceles, or scalene)
+// based on user input for the lengths of its three sides.

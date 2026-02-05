@@ -19,3 +19,4 @@ int main()
 			printf("not amstrong number");
 		}
 }
+// This program checks if a hardcoded number is an Armstrong number or not

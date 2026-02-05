@@ -11,3 +11,4 @@ void main()
 			printf("person is not eligible for vote");
 	}
 }
+// This program checks if a hardcoded age makes a person eligible to vote

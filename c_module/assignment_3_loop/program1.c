@@ -9,3 +9,4 @@ int main()
 	}
 	return 0;
 }
+// This program prints numbers from 1 to 10

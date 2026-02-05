@@ -22,3 +22,5 @@ void main() {
         }
     }
 }
+// This program finds the greatest of three numbers
+// based on user input for the three numbers.

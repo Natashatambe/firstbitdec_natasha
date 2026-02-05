@@ -19,3 +19,4 @@ int main()
 			printf("odd");
 		}
 }
+// This program checks if a hardcoded number is prime or not

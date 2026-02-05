@@ -10,3 +10,4 @@ void main()
 		printf("given character is consonent");
 	}
 }
+// This program checks if a hardcoded character is a vowel or consonant

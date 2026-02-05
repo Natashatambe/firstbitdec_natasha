@@ -15,3 +15,4 @@ void main() {
     else
         printf("Divisible by None");
 }
+// This program checks if a user-input number is divisible by 3, 5, both, or neither.

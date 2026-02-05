@@ -9,3 +9,4 @@ int main()
 	}
 	printf("%d",sum);
 }
+// This program calculates and prints the sum of integers from 1 to 5

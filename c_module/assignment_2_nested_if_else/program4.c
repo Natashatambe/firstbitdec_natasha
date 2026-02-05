@@ -35,3 +35,4 @@ void main()
 		}
 	}
 }
+// This program assigns a grade based on user input for marks

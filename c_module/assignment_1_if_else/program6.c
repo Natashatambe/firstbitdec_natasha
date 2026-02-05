@@ -16,3 +16,5 @@ int main()
 	TOTALsalary = Basic + DA + TA + HRA;
 	printf("TOTAL SALARY :%d/n", TOTALsalary);
 }
+// This program calculates the total salary based on a hardcoded basic salary
+// and different allowances depending on the salary range.

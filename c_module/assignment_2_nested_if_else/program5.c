@@ -22,3 +22,5 @@ void main() {
     printf("Discount = %.2f", discount);
     printf("\nFinal Price = %.2f", price - discount);
 }
+// This program calculates a discount on a given price
+// based on whether the buyer is a student and the price amount.

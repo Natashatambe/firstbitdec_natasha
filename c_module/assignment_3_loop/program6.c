@@ -20,3 +20,4 @@ void main()
     else
         printf("Not Perfect");
 }
+// This program checks if a hardcoded number is a perfect number or not

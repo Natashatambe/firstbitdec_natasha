@@ -23,3 +23,5 @@ void main() {
         }
     }
 }
+// This program categorizes a person into Child, Teenager, Adult, or Senior
+// based on user input for age.

@@ -43,3 +43,5 @@ void main() {
         }
     }
 }
+// This program performs basic arithmetic operations
+// based on user input for two numbers and an operator.

@@ -10,3 +10,4 @@ int main()
 	}
 	return 0;
 }
+// This program prints multiples of 5 starting from 10 up to 50
