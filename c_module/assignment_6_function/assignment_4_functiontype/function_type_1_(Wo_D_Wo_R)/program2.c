@@ -1,30 +1,32 @@
 #include <stdio.h>
-
-void checkPalindrome();   // function declaration
-
+void isprime();
 void main()
 {
-    checkPalindrome();   // function call
+ isprime();
 }
 
-void checkPalindrome()    // function definition
-{
-    int num, temp, rev = 0, rem;
+ void isprime(){
+    int n = 50;  // You can change this value
+    int num = 2; // Start from 2, since 1 is not prime
 
-    printf("Enter a 3 digit number: ");
-    scanf("%d", &num);
+    printf("Prime numbers from 1 to %d are:\n", n);
 
-    temp = num;   // store original number
+    while (num <= n) {
+        int i = 2;
+        int isPrime = 1; // Assume number is prime
 
-    while (temp != 0)
-    {
-        rem = temp % 10;
-        rev = rev * 10 + rem;
-        temp = temp / 10;
+        // Check if num is divisible by any number from 2 to num-1
+        while (i < num) {  // Nested loop
+            if (num % i == 0) {
+                isPrime = 0; // Not prime
+            }
+            i++;
+        }
+
+        if (isPrime == 1) {
+            printf("%d ", num);
+        }
+
+        num++;
     }
-
-    if (num == rev)
-        printf("Palindrome");
-    else
-        printf("Not Palindrome");
 }
