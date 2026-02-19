@@ -1,19 +1,16 @@
 #include<stdio.h>
- void checkEvenOdd();   // function declaration
-
-void main()
+void num();
+int main()
 {
-    checkEvenOdd();  // function call
+	 num();
+	
 }
- void checkEvenOdd()   // function definition
-{
-    int num;
-
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (num % 2 == 0)
-        printf("Number is Even");
-    else
-        printf("Number is Odd");
+ void num(){
+	int n=1;
+	while(n<=10)
+	{
+		printf("%d",n);
+		n++;
+	}
 }
+// This program prints numbers from 1 to 10
