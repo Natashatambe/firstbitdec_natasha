@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main() {
-    int n = 500;  // You can change the range
+    int n = 500;  
     int num = 1;
 
     printf("Armstrong numbers from 1 to %d are:\n", n);
@@ -25,7 +25,7 @@ void main() {
             int power = 1;
             int i = 1;
 
-            while (i <= digits) {   // Nested loop for power
+            while (i <= digits) {   
                 power = power * digit;
                 i++;
             }
