@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int checkPalindrome();   // function declaration
-
+int checkPalindrome();   
 int main()
 {
     int result;
 
-    result = checkPalindrome();   // function call
+    result = checkPalindrome();   
 
     if (result == 1)
         printf("Palindrome");
@@ -16,7 +15,7 @@ int main()
     return 0;
 }
 
-int checkPalindrome()    // function definition
+int checkPalindrome()   
 {
     int num, temp, rev = 0, rem;
 
@@ -33,7 +32,7 @@ int checkPalindrome()    // function definition
     }
 
     if (num == rev)
-        return 1;   // palindrome
+        return 1;   
     else
-        return 0;   // not palindrome
+        return 0;   
 }
