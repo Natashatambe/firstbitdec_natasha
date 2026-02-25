@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include<stdio.h>
 
 void checkLeap();   // function declaration
@@ -44,4 +44,4 @@ void checkLeap()    // function definition
         printf("Not Leap year");
     }
 }
->>>>>>> a6e0a47394198f786ebdc5e4b1e1d7f42da419ee
+
