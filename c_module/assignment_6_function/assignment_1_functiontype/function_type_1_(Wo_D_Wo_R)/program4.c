@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include<stdio.h>
 
 void checkCharacter();   // function declaration
@@ -46,4 +46,4 @@ void checkCharacter()    // no parameter, no return type
         printf("Given character is consonant");
     }
 }
->>>>>>> a6e0a47394198f786ebdc5e4b1e1d7f42da419ee
+
