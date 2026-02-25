@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 void main() {
-    int n = 4;  // You can change the size of the square
+    int n = 4;  
     int i, j;
 
-    for (i = 1; i <= n; i++) {        // Outer loop for rows
-        for (j = 1; j <= n; j++) {    // Inner loop for columns
+    for (i = 1; i <= n; i++) {        
+        for (j = 1; j <= n; j++) {    
             printf("* ");
         }
-        printf("\n");                  // Move to next row
+        printf("\n");                 
     }
 }

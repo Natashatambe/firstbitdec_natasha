@@ -1,12 +1,20 @@
 #include <stdio.h>
 
-void checkPalindrome();   
-void main()
+int checkPalindrome(void);   
+
+int main()
 {
-    checkPalindrome(); 
+    int result = checkPalindrome(); 
+
+    if(result == 1)
+        printf("Palindrome");
+    else
+        printf("Not Palindrome");
+
+    return 0;
 }
 
-void checkPalindrome()    
+int checkPalindrome(void)    
 {
     int num, temp, rev = 0, rem;
 
@@ -23,7 +31,7 @@ void checkPalindrome()
     }
 
     if (num == rev)
-        printf("Palindrome");
+        return 1;  
     else
-        printf("Not Palindrome");
+        return 0;  
 }

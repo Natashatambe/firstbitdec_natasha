@@ -1,11 +1,11 @@
 #include<stdio.h>
- void checkEvenOdd();   // function declaration
+ void checkEvenOdd();   
 
 void main()
 {
-    checkEvenOdd();  // function call
+    checkEvenOdd();  
 }
- void checkEvenOdd()   // function definition
+ void checkEvenOdd()   
 {
     int num;
 

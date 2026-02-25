@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-void checkPalindrome();   // function declaration
+void checkPalindrome();   
 
 void main()
 {
-    checkPalindrome();   // function call
+    checkPalindrome();   
 }
 
-void checkPalindrome()    // function definition
+void checkPalindrome()    
 {
     int num, temp, rev = 0, rem;
 
     printf("Enter a 3 digit number: ");
     scanf("%d", &num);
 
-    temp = num;   // store original number
+    temp = num;   
 
     while (temp != 0)
     {

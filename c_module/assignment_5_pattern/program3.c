@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 void main() {
-    int n = 5;  // You can change the size of the triangle
+    int n = 5;  
     int i, j;
 
-    for (i = n; i >= 1; i--) {      // Outer loop for rows
-        for (j = 1; j <= i; j++) {  // Inner loop for columns
+    for (i = n; i >= 1; i--) {      
+        for (j = 1; j <= i; j++) { 
             printf("*");
         }
-        printf("\n");                // Move to next row
+        printf("\n");                
     }
 }
 // This program prints an inverted right-angled triangle of asterisks
