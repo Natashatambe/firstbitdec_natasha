@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main() {
-    int n = 1000;  // You can change this value
+    int n = 1000;  
     int num = 1;
 
     printf("Perfect numbers from 1 to %d are:\n", n);
