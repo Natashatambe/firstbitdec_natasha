@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 
 #include<stdio.h>
 
+=======
+#include<stdio.h>
+
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
 void sum();
 
 int main()
@@ -19,4 +24,7 @@ void sum()
     }
     printf("%d", sum);
 }
+<<<<<<< HEAD
 >>>>>>> a6e0a47394198f786ebdc5e4b1e1d7f42da419ee
+=======
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a

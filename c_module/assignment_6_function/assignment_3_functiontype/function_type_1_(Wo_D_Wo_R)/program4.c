@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
 #include<stdio.h>
 void checkcount();
 int main()
@@ -24,5 +27,9 @@ void checkcount(){
 			printf("odd");
 		}
 }
+<<<<<<< HEAD
 >>>>>>> a6e0a47394198f786ebdc5e4b1e1d7f42da419ee
 // This program checks if a hardcoded number is prime or not
+=======
+// This program checks if a hardcoded number is prime or not
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a

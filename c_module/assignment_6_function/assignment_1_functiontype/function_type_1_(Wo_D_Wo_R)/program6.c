@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
 #include<stdio.h>
 void salaryCal();
 int main()
@@ -24,4 +28,8 @@ int main()
 }
 // This program calculates the total salary based on a hardcoded basic salary
 
+<<<<<<< HEAD
 // and different allowances depending on the salary range.
+=======
+// and different allowances depending on the salary range.
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a

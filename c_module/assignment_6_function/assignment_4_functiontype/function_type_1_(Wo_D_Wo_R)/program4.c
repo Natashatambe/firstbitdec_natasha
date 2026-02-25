@@ -5,7 +5,7 @@ void main()
  checkFactorial();
 }
 void checkFactorial(){
-    int n = 500;  // You can change this value
+    int n = 500;  
     int num = 1;
 
     printf("Strong numbers from 1 to %d are:\n", n);
@@ -14,11 +14,11 @@ void checkFactorial(){
         int temp = num;
         int sum = 0;
 
-        // Process each digit
+     
         while (temp > 0) {
             int digit = temp % 10;
 
-            // Calculate factorial of digit using nested loop
+         
             int fact = 1;
             int i = 1;
             while (i <= digit) {

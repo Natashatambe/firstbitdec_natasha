@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
 #include <stdio.h>
 void isperfect();
 void main()
@@ -24,4 +27,8 @@ void isperfect(){
     else
         printf("Not Perfect");
 }
+<<<<<<< HEAD
 // This program checks if a hardcoded number is a perfect number or not
+=======
+// This program checks if a hardcoded number is a perfect number or not
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a

@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 void main() {
+<<<<<<< HEAD
     int n = 500; 
+=======
+    int n = 500;  
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
     int num = 1;
 
     printf("Armstrong numbers from 1 to %d are:\n", n);

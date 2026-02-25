@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+
+#include <stdio.h>
+void checkgreater();
+void main()
+{
+	checkgreater();
+}
+=======
 
 #include <stdio.h>
 void checkgreater();
@@ -30,5 +39,6 @@ void main()
     }
 }
 // This program finds the greatest of three numbers
->>>>>>> a6e0a47394198f786ebdc5e4b1e1d7f42da419ee
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
+
 // based on user input for the three numbers.

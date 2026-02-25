@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
 #include <stdio.h>
 void ispalindrome();
 void main() 
@@ -24,5 +27,9 @@ void ispalindrome(){
         printf("Palindrome");
     else
         printf("Not Palindrome");
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a

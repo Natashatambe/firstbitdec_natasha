@@ -23,3 +23,7 @@ void checkCharacter()    // no parameter, no return type
     }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a

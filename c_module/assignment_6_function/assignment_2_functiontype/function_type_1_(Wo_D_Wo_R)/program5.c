@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
 #include <stdio.h>
 void checkPrize();
 void main()
@@ -32,6 +35,10 @@ void main()
     printf("Discount = %.2f", discount);
     printf("\nFinal Price = %.2f", price - discount);
 }
+<<<<<<< HEAD
 // This program calculates a discount on a given price
 
 // based on whether the buyer is a student and the price amount.
+=======
+
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a

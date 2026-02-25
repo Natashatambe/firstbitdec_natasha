@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 46f7b99b1881c3a6a68def393925fceeac9a3d4a
 #include <stdio.h>
 void isvaluestrong();
 void main()
