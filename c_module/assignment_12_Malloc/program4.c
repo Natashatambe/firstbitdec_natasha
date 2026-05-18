@@ -5,7 +5,6 @@ int main()
 {
     int *arr;
     int n, i;
-    int min, max;
 
     printf("Enter size of array: ");
     scanf("%d", &n);
@@ -26,25 +25,25 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    min = arr[0];
-    max = arr[0];
+    printf("Even numbers are:\n");
 
-    // Finding minimum and maximum
-    for(i = 1; i < n; i++)
+    for(i = 0; i < n; i++)
     {
-        if(arr[i] < min)
+        if(arr[i] % 2 == 0)
         {
-            min = arr[i];
-        }
-
-        if(arr[i] > max)
-        {
-            max = arr[i];
+            printf("%d ", arr[i]);
         }
     }
 
-    printf("Minimum number = %d\n", min);
-    printf("Maximum number = %d\n", max);
+    printf("\nOdd numbers are:\n");
+
+    for(i = 0; i < n; i++)
+    {
+        if(arr[i] % 2 != 0)
+        {
+            printf("%d ", arr[i]);
+        }
+    }
 
     // Free allocated memory
     free(arr);

@@ -4,8 +4,7 @@
 int main()
 {
     int *arr;
-    int n, i;
-    int min, max;
+    int n, i, j, count;
 
     printf("Enter size of array: ");
     scanf("%d", &n);
@@ -26,25 +25,30 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    min = arr[0];
-    max = arr[0];
+    printf("Prime numbers are:\n");
 
-    // Finding minimum and maximum
-    for(i = 1; i < n; i++)
+    for(i = 0; i < n; i++)
     {
-        if(arr[i] < min)
+        count = 0;
+
+        if(arr[i] <= 1)
         {
-            min = arr[i];
+            continue;
         }
 
-        if(arr[i] > max)
+        for(j = 1; j <= arr[i]; j++)
         {
-            max = arr[i];
+            if(arr[i] % j == 0)
+            {
+                count++;
+            }
+        }
+
+        if(count == 2)
+        {
+            printf("%d ", arr[i]);
         }
     }
-
-    printf("Minimum number = %d\n", min);
-    printf("Maximum number = %d\n", max);
 
     // Free allocated memory
     free(arr);

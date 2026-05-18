@@ -4,8 +4,7 @@
 int main()
 {
     int *arr;
-    int n, i;
-    int min, max;
+    int n, i, num, found = 0;
 
     printf("Enter size of array: ");
     scanf("%d", &n);
@@ -26,25 +25,24 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    min = arr[0];
-    max = arr[0];
+    printf("Enter number to search: ");
+    scanf("%d", &num);
 
-    // Finding minimum and maximum
-    for(i = 1; i < n; i++)
+    // Searching element
+    for(i = 0; i < n; i++)
     {
-        if(arr[i] < min)
+        if(arr[i] == num)
         {
-            min = arr[i];
-        }
-
-        if(arr[i] > max)
-        {
-            max = arr[i];
+            found = 1;
+            printf("Number found at position %d", i + 1);
+            break;
         }
     }
 
-    printf("Minimum number = %d\n", min);
-    printf("Maximum number = %d\n", max);
+    if(found == 0)
+    {
+        printf("Number not found");
+    }
 
     // Free allocated memory
     free(arr);

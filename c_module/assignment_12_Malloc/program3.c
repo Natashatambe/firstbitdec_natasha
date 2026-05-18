@@ -4,8 +4,7 @@
 int main()
 {
     int *arr;
-    int n, i;
-    int min, max;
+    int n, i, sum = 0;
 
     printf("Enter size of array: ");
     scanf("%d", &n);
@@ -26,25 +25,13 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    min = arr[0];
-    max = arr[0];
-
-    // Finding minimum and maximum
-    for(i = 1; i < n; i++)
+    // Finding sum
+    for(i = 0; i < n; i++)
     {
-        if(arr[i] < min)
-        {
-            min = arr[i];
-        }
-
-        if(arr[i] > max)
-        {
-            max = arr[i];
-        }
+        sum = sum + arr[i];
     }
 
-    printf("Minimum number = %d\n", min);
-    printf("Maximum number = %d\n", max);
+    printf("Sum of all elements = %d", sum);
 
     // Free allocated memory
     free(arr);

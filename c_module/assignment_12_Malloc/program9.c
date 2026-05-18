@@ -4,8 +4,7 @@
 int main()
 {
     int *arr;
-    int n, i;
-    int min, max;
+    int n, i, temp;
 
     printf("Enter size of array: ");
     scanf("%d", &n);
@@ -26,25 +25,20 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    min = arr[0];
-    max = arr[0];
-
-    // Finding minimum and maximum
-    for(i = 1; i < n; i++)
+    // Reverse array
+    for(i = 0; i < n / 2; i++)
     {
-        if(arr[i] < min)
-        {
-            min = arr[i];
-        }
-
-        if(arr[i] > max)
-        {
-            max = arr[i];
-        }
+        temp = arr[i];
+        arr[i] = arr[n - 1 - i];
+        arr[n - 1 - i] = temp;
     }
 
-    printf("Minimum number = %d\n", min);
-    printf("Maximum number = %d\n", max);
+    printf("Reversed array is:\n");
+
+    for(i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
 
     // Free allocated memory
     free(arr);
